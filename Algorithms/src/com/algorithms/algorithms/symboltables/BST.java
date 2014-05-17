@@ -10,7 +10,6 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
     private Node root;
 
     public void put(Key key, Value value) {
-        return;
     }
 
     public Value get(Key key) {
