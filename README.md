@@ -37,7 +37,7 @@ A project which can save your time and organize your code on the way learning al
     
         @Override
         public void run() {
-            //Every algorithm will run in this method.
+            //Every algorithm runs in this method.
     
             //Print everything you want to print, by using only one method: print;
             print("Everything you want to print.");
