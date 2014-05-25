@@ -5,6 +5,8 @@ import com.algorithms.listeners.PrintConsoleListener;
 import com.algorithms.listeners.SetParameterListener;
 
 import javax.swing.*;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -32,6 +34,15 @@ public abstract class BaseAlgorithm {
 
     protected void show(Object message, String title) {
         JOptionPane.showMessageDialog(null, message, title, JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    protected String print(List list) {
+        String string = "";
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext()) {
+            string += iterator.next().toString() + " ";
+        }
+        return print(string);
     }
 
     protected String print(Object[] objects) {
