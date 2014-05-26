@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Created by Who on 2014/5/23.
  */
-public class Sample extends BaseAlgorithm implements IAlgorithm {
+public class SAMPLE extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public long getID() {
