@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="Code">
+    <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\GitHub\algorithms\Algorithms\src\com\algorithms\SAMPLE\Sample.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sampleeee.java" />
+      <change type="MOVED" beforePath="D:\GitHub\algorithms\Algorithms\src\com\algorithms\SAMPLE\Sampleeee.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java" />
     </list>
     <ignored path="algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +26,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sampleeee.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sampleeee.java">
+      <file leaf-file-name="Sample.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6493056" vertical-offset="0" max-vertical-offset="1649">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/BaseAlgorithm.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/SAMPLE.java" />
-        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sampleeee.java" />
+        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java" />
       </list>
     </option>
   </component>
@@ -646,7 +646,11 @@
       <created>1401073816478</created>
       <updated>1401073816478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Code">
+      <created>1401079635610</created>
+      <updated>1401079635610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -799,7 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sampleeee.java">
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6493056" vertical-offset="0" max-vertical-offset="1649">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
