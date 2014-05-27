@@ -10,10 +10,25 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
     private Node root;
 
     public void put(Key key, Value value) {
+
     }
 
     public Value get(Key key) {
-        return null;
+        Node node = root;
+        Value value = null;
+        while (node != null) {
+            if (node.key.equals(key)) {
+                value = node.value;
+                break;
+            } else {
+                if (node.key.compareTo(key) > 0) {
+                    node = node.right;
+                } else {
+                    node = node.left;
+                }
+            }
+        }
+        return value;
     }
 
     public void delete(Key key) {
