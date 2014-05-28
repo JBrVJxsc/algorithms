@@ -87,6 +87,46 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
         return null;
     }
 
+    public Key floor(Key key) {
+        Node node = root;
+        Node found = null;
+        while (node != null) {
+            int compareResult = key.compareTo(node.key);
+            if (compareResult > 0) {
+                found = node;
+                node = node.right;
+            } else if (compareResult < 0) {
+                node = node.left;
+            } else {
+                return key;
+            }
+        }
+        if (found == null) {
+            return null;
+        }
+        return found.key;
+    }
+
+    public Key ceiling(Key key) {
+        Node node = root;
+        Node found = null;
+        while (node != null) {
+            int compareResult = key.compareTo(node.key);
+            if (compareResult > 0) {
+                node = node.right;
+            } else if (compareResult < 0) {
+                found = node;
+                node = node.left;
+            } else {
+                return key;
+            }
+        }
+        if (found == null) {
+            return null;
+        }
+        return found.key;
+    }
+
     public void delete(Key key) {
 
     }
