@@ -3,9 +3,9 @@ package com.algorithms.algorithms.unionfind.jobinterview.a1q1;
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.unionfind.UnionFind;
 import com.algorithms.base.Parameter;
+import com.algorithms.common.Random;
 import com.algorithms.interfaces.IAlgorithm;
 
-import java.util.Random;
 
 /**
  * Created by Who on 2014/4/4.
@@ -37,13 +37,12 @@ public class Main extends BaseAlgorithm implements IAlgorithm {
     }
 
     public LogFile randomUnion(UnionFind unionFind) {
-        Random random = new Random();
         int nLength = unionFind.getN().length;
         int randomCount = 0;
         LogFile logFile = new LogFile();
         while (!check(unionFind, randomCount)) {
-            int p = random.nextInt(nLength);
-            int q = random.nextInt(nLength);
+            int p = Random.getInt(nLength);
+            int q = Random.getInt(nLength);
             logFile.AddLog(p, q, System.currentTimeMillis());
             unionFind.union(p, q);
             print(p + " " + q);
@@ -61,12 +60,11 @@ public class Main extends BaseAlgorithm implements IAlgorithm {
     }
 
     public LogFile randomUnion(UnionFind unionFind, int n) {
-        Random random = new Random();
         int nLength = unionFind.getN().length;
         LogFile logFile = new LogFile();
         for (int i = 0; i < n; i++) {
-            int p = random.nextInt(nLength);
-            int q = random.nextInt(nLength);
+            int p = Random.getInt(nLength);
+            int q = Random.getInt(nLength);
             logFile.AddLog(p, q, System.currentTimeMillis());
             unionFind.union(p, q);
             print(p + " " + q);

@@ -7,9 +7,9 @@ import com.algorithms.algorithms.sort.elementarysorts.Shellsort;
 import com.algorithms.algorithms.sort.interfaces.ISort;
 import com.algorithms.algorithms.sort.mergesorts.BottomUpMergesort;
 import com.algorithms.algorithms.sort.mergesorts.Mergesort;
+import com.algorithms.common.Random;
 import com.algorithms.interfaces.IAlgorithm;
 
-import java.util.Random;
 
 /**
  * Created by Who on 2014/4/24.
@@ -38,16 +38,15 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
     private void test() {
         ISort iSort = null;
         Comparable[] tempt = null;
-        Random random = new Random();
         Comparable[] firstPart = new Comparable[10];
         for (int i = 0; i < firstPart.length; i++) {
-            firstPart[i] = random.nextInt(100);
+            firstPart[i] = Random.getInt(100);
         }
         print("First Part: ");
         print(firstPart);
         Comparable[] secondPart = new Comparable[11];
         for (int i = 0; i < secondPart.length; i++) {
-            secondPart[i] = random.nextInt(100);
+            secondPart[i] = Random.getInt(100);
         }
         print("Second Part: ");
         print(secondPart);

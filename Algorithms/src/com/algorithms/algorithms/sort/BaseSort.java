@@ -1,9 +1,9 @@
 package com.algorithms.algorithms.sort;
 
 import com.algorithms.algorithms.sort.interfaces.ISort;
+import com.algorithms.common.Random;
 
 import java.util.Comparator;
-import java.util.Random;
 
 /**
  * Created by Who on 2014/4/21.
@@ -14,9 +14,8 @@ public abstract class BaseSort implements ISort {
 
     public static Comparable[] getRandomComparables(int size) {
         Comparable[] comparables = new Comparable[size];
-        Random random = new Random();
         for (int i = 0; i < comparables.length; i++) {
-            comparables[i] = random.nextInt(size * 2);
+            comparables[i] = Random.getInt(size * 2);
         }
         return comparables;
     }

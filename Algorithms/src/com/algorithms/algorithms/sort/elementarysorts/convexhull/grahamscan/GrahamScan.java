@@ -1,10 +1,10 @@
 package com.algorithms.algorithms.sort.elementarysorts.convexhull.grahamscan;
 
 import com.algorithms.algorithms.sort.elementarysorts.Shellsort;
+import com.algorithms.common.Random;
 
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Stack;
 
 /**
@@ -13,16 +13,15 @@ import java.util.Stack;
 public class GrahamScan {
 
     private Point2D[] getPoints(int number) {
-        Random random = new Random();
         ArrayList<Point2D> point2DArrayList = new ArrayList<Point2D>();
         Point2D[] point2Ds = new Point2D[number];
         int index = 0;
         int range = 700;
         while (index != point2Ds.length) {
-            Point2D point2D = new Point2D(random.nextInt(range), random.nextInt(range));
+            Point2D point2D = new Point2D(Random.getInt(range), Random.getInt(range));
             //Loop, until get an unique point.
             while (point2DArrayList.contains(point2D)) {
-                point2D = new Point2D(random.nextInt(range), random.nextInt(range));
+                point2D = new Point2D(Random.getInt(range), Random.getInt(range));
             }
             point2Ds[index] = point2D;
             point2DArrayList.add(point2D);
