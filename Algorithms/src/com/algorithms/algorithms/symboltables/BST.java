@@ -18,6 +18,7 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
         while (node != null) {
             if (node.key.equals(key)) {
                 node.value = value;
+                return;
             } else {
                 if (node.key.compareTo(key) > 0) {
                     if (node.left == null) {
@@ -40,7 +41,7 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
         root = put(root, key, value);
     }
 
-    public Node put(Node node, Key key, Value value) {
+    private Node put(Node node, Key key, Value value) {
         if (node == null) {
             return new Node(key, value);
         }
@@ -57,11 +58,9 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
 
     public Value get(Key key) {
         Node node = root;
-        Value value = null;
         while (node != null) {
             if (node.key.equals(key)) {
-                value = node.value;
-                break;
+                return node.value;
             } else {
                 if (node.key.compareTo(key) > 0) {
                     node = node.left;
@@ -70,7 +69,22 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
                 }
             }
         }
-        return value;
+        return null;
+    }
+
+    public Value getTwo(Key key) {
+        Node node = root;
+        while (node != null) {
+            int cmp = key.compareTo(node.key);
+            if (cmp < 0) {
+                node = node.left;
+            } else if (cmp > 0) {
+                node = node.right;
+            } else {
+                return node.value;
+            }
+        }
+        return null;
     }
 
     public void delete(Key key) {

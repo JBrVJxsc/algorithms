@@ -2,6 +2,7 @@ package com.algorithms.algorithms.symboltables.exercises;
 
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.symboltables.BST;
+import com.algorithms.base.Parameter;
 import com.algorithms.common.Random;
 import com.algorithms.interfaces.IAlgorithm;
 
@@ -26,9 +27,19 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public void run() {
-        BST<Integer, String> bstOne = new BST<Integer, String>();
-        BST<Integer, String> bstTwo = new BST<Integer, String>();
-
-        Random.getInt(100);
+        Parameter<Integer> number = new Parameter<Integer>(200, "Number");
+        set(number);
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        BST<Integer, Integer> bstTwo = new BST<Integer, Integer>();
+        for (int i = 0; i < 100; i++) {
+            int key = Random.getInt(number.getValue());
+            bstOne.putOne(key, key);
+            bstOne.putOne(key, key);
+            bstTwo.putTwo(key, key);
+            bstTwo.putTwo(key, key);
+            print("BST-ONE:" + bstOne.get(key));
+            print("BST-TWO:" + bstTwo.getTwo(key));
+            print();
+        }
     }
 }
