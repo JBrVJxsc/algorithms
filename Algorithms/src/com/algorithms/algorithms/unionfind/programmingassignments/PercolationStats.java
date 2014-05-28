@@ -1,7 +1,7 @@
 package com.algorithms.algorithms.unionfind.programmingassignments;
 
 import com.algorithms.algorithms.BaseAlgorithm;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 /**

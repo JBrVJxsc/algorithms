@@ -2,7 +2,7 @@ package com.algorithms.algorithms.sort.elementarysorts.convexhull.exercises;
 
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.sort.elementarysorts.convexhull.grahamscan.GrahamScan;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.util.Stack;

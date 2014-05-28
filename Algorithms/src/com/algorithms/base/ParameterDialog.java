@@ -1,7 +1,5 @@
 package com.algorithms.base;
 
-import com.algorithms.common.Parameter;
-
 import javax.swing.*;
 import java.awt.event.*;
 

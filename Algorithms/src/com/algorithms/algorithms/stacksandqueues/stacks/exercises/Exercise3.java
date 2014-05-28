@@ -2,7 +2,7 @@ package com.algorithms.algorithms.stacksandqueues.stacks.exercises;
 
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.stacksandqueues.stacks.implementations.ArithmeticExpressionEvaluator;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 /**

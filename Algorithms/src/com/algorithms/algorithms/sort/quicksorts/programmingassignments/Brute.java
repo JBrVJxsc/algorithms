@@ -1,7 +1,7 @@
 package com.algorithms.algorithms.sort.quicksorts.programmingassignments;
 
 import com.algorithms.algorithms.BaseAlgorithm;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.common.functions.StdDraw;
 import com.algorithms.interfaces.IAlgorithm;
 

@@ -1,6 +1,6 @@
 package com.algorithms.listeners;
 
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 
 import java.util.EventListener;
 

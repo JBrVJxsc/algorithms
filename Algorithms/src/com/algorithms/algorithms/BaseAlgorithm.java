@@ -1,6 +1,6 @@
 package com.algorithms.algorithms;
 
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.listeners.PrintConsoleListener;
 import com.algorithms.listeners.SetParameterListener;
 

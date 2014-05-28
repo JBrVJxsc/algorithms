@@ -1,6 +1,6 @@
 package com.algorithms.algorithms;
 
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 /**

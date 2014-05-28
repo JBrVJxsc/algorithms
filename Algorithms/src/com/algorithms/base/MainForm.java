@@ -1,6 +1,5 @@
 package com.algorithms.base;
 
-import com.algorithms.common.Parameter;
 import com.algorithms.common.functions.Reflection;
 import com.algorithms.interfaces.IAlgorithm;
 import com.algorithms.listeners.PrintConsoleListener;

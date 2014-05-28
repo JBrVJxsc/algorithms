@@ -4,7 +4,7 @@ import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.sort.BaseSort;
 import com.algorithms.algorithms.sort.interfaces.ISort;
 import com.algorithms.algorithms.sort.quicksorts.Quicksort;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 /**

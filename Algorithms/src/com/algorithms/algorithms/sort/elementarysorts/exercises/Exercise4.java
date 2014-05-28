@@ -11,7 +11,7 @@ import com.algorithms.algorithms.sort.mergesorts.BottomUpMergesort;
 import com.algorithms.algorithms.sort.mergesorts.Mergesort;
 import com.algorithms.algorithms.sort.quicksorts.Quicksort;
 import com.algorithms.algorithms.sort.quicksorts.Quicksort3way;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 /**

@@ -1,4 +1,4 @@
-package com.algorithms.common;
+package com.algorithms.base;
 
 /**
  * Created by Who on 2014/4/10.

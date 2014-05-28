@@ -2,7 +2,7 @@ package com.algorithms.algorithms.unionfind.jobinterview.a1q1;
 
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.unionfind.UnionFind;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.util.Random;

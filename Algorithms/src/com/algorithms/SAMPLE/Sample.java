@@ -1,7 +1,7 @@
 package com.algorithms.SAMPLE;
 
 import com.algorithms.algorithms.BaseAlgorithm;
-import com.algorithms.common.Parameter;
+import com.algorithms.base.Parameter;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.awt.*;
