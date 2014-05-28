@@ -33,12 +33,12 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
         BST<Integer, Integer> bstTwo = new BST<Integer, Integer>();
         for (int i = 0; i < 100; i++) {
             int key = Random.getInt(number.getValue());
-            bstOne.putOne(key, key);
-            bstOne.putOne(key, key);
-            bstTwo.putTwo(key, key);
-            bstTwo.putTwo(key, key);
+            bstOne.put(key, key);
+            bstOne.put(key, key);
+            bstTwo.putCourse(key, key);
+            bstTwo.putCourse(key, key);
             print("BST-ONE:" + bstOne.get(key));
-            print("BST-TWO:" + bstTwo.getTwo(key));
+            print("BST-TWO:" + bstTwo.getCourse(key));
             print();
         }
     }
