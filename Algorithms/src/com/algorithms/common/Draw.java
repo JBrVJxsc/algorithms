@@ -49,7 +49,7 @@ import java.util.TreeSet;
  * @author Robert Sedgewick
  * @author Kevin Wayne
  */
-public final class StdDraw implements ActionListener, MouseListener, MouseMotionListener, KeyListener {
+public final class Draw implements ActionListener, MouseListener, MouseMotionListener, KeyListener {
 
     // pre-defined colors
     public static final Color BLACK = Color.BLACK;
@@ -111,7 +111,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     private static Graphics2D offscreen, onscreen;
 
     // singleton for callbacks: avoids generation of extra .class files
-    private static StdDraw std = new StdDraw();
+    private static Draw std = new Draw();
 
     // the frame for drawing to the screen
     private static JFrame frame;
@@ -129,7 +129,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
 
 
     // singleton pattern: client can't instantiate
-    private StdDraw() {
+    private Draw() {
     }
 
 
@@ -715,7 +715,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
 
         // in case file is inside a .jar
         if ((icon == null) || (icon.getImageLoadStatus() != MediaTracker.COMPLETE)) {
-            URL url = StdDraw.class.getResource(filename);
+            URL url = Draw.class.getResource(filename);
             if (url == null) throw new IllegalArgumentException("image " + filename + " not found");
             icon = new ImageIcon(url);
         }
@@ -1076,37 +1076,37 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      * Test client.
      */
     public static void main(String[] args) {
-        StdDraw.square(.2, .8, .1);
-        StdDraw.filledSquare(.8, .8, .2);
-        StdDraw.circle(.8, .2, .2);
+        Draw.square(.2, .8, .1);
+        Draw.filledSquare(.8, .8, .2);
+        Draw.circle(.8, .2, .2);
 
-        StdDraw.setPenColor(StdDraw.BOOK_RED);
-        StdDraw.setPenRadius(.02);
-        StdDraw.arc(.8, .2, .1, 200, 45);
+        Draw.setPenColor(Draw.BOOK_RED);
+        Draw.setPenRadius(.02);
+        Draw.arc(.8, .2, .1, 200, 45);
 
         // draw a blue diamond
-        StdDraw.setPenRadius();
-        StdDraw.setPenColor(StdDraw.BOOK_BLUE);
+        Draw.setPenRadius();
+        Draw.setPenColor(Draw.BOOK_BLUE);
         double[] x = {.1, .2, .3, .2};
         double[] y = {.2, .3, .2, .1};
-        StdDraw.filledPolygon(x, y);
+        Draw.filledPolygon(x, y);
 
         // text
-        StdDraw.setPenColor(StdDraw.BLACK);
-        StdDraw.text(0.2, 0.5, "black text");
-        StdDraw.setPenColor(StdDraw.WHITE);
-        StdDraw.text(0.8, 0.8, "white text");
+        Draw.setPenColor(Draw.BLACK);
+        Draw.text(0.2, 0.5, "black text");
+        Draw.setPenColor(Draw.WHITE);
+        Draw.text(0.8, 0.8, "white text");
     }
 
     /**
      * This method cannot be called directly.
      */
     public void actionPerformed(ActionEvent e) {
-        FileDialog chooser = new FileDialog(StdDraw.frame, "Use a .png or .jpg extension", FileDialog.SAVE);
+        FileDialog chooser = new FileDialog(Draw.frame, "Use a .png or .jpg extension", FileDialog.SAVE);
         chooser.setVisible(true);
         String filename = chooser.getFile();
         if (filename != null) {
-            StdDraw.save(chooser.getDirectory() + File.separator + chooser.getFile());
+            Draw.save(chooser.getDirectory() + File.separator + chooser.getFile());
         }
     }
 
@@ -1138,8 +1138,8 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      */
     public void mousePressed(MouseEvent e) {
         synchronized (mouseLock) {
-            mouseX = StdDraw.userX(e.getX());
-            mouseY = StdDraw.userY(e.getY());
+            mouseX = Draw.userX(e.getX());
+            mouseY = Draw.userY(e.getY());
             mousePressed = true;
         }
     }
@@ -1158,8 +1158,8 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      */
     public void mouseDragged(MouseEvent e) {
         synchronized (mouseLock) {
-            mouseX = StdDraw.userX(e.getX());
-            mouseY = StdDraw.userY(e.getY());
+            mouseX = Draw.userX(e.getX());
+            mouseY = Draw.userY(e.getY());
         }
     }
 
@@ -1168,8 +1168,8 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
      */
     public void mouseMoved(MouseEvent e) {
         synchronized (mouseLock) {
-            mouseX = StdDraw.userX(e.getX());
-            mouseY = StdDraw.userY(e.getY());
+            mouseX = Draw.userX(e.getX());
+            mouseY = Draw.userY(e.getY());
         }
     }
 

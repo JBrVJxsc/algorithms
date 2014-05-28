@@ -1,6 +1,6 @@
 package com.algorithms.algorithms.sort.quicksorts.programmingassignments;
 
-import com.algorithms.common.StdDraw;
+import com.algorithms.common.Draw;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -55,11 +55,11 @@ public class Point implements Comparable<Point> {
     }
 
     public void draw() {
-        StdDraw.point(x, y);
+        Draw.point(x, y);
     }
 
     public void drawTo(Point that) {
-        StdDraw.line(x, y, that.x, that.y);
+        Draw.line(x, y, that.x, that.y);
     }
 
     public String toString() {

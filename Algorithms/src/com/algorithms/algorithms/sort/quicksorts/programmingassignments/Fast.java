@@ -3,7 +3,7 @@ package com.algorithms.algorithms.sort.quicksorts.programmingassignments;
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.sort.quicksorts.Quicksort;
 import com.algorithms.base.Parameter;
-import com.algorithms.common.StdDraw;
+import com.algorithms.common.Draw;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.util.ArrayList;
@@ -53,24 +53,24 @@ public class Fast extends BaseAlgorithm implements IAlgorithm {
             }
         }
         //Draw.
-        StdDraw.setXscale(0, size.getValue());
-        StdDraw.setYscale(0, size.getValue());
-        StdDraw.clear();
+        Draw.setXscale(0, size.getValue());
+        Draw.setYscale(0, size.getValue());
+        Draw.clear();
         print("Fast size:");
         print(pointsArrayList.size());
         for (Points points : pointsArrayList) {
             if (points.getPoints() != null) {
                 Point[] p = points.getPoints();
-                StdDraw.line(p[0].getX(), p[0].getY(), p[1].getX(), p[1].getY());
-                StdDraw.line(p[0].getX(), p[0].getY(), p[2].getX(), p[2].getY());
-                StdDraw.line(p[0].getX(), p[0].getY(), p[3].getX(), p[3].getY());
+                Draw.line(p[0].getX(), p[0].getY(), p[1].getX(), p[1].getY());
+                Draw.line(p[0].getX(), p[0].getY(), p[2].getX(), p[2].getY());
+                Draw.line(p[0].getX(), p[0].getY(), p[3].getX(), p[3].getY());
             } else {
                 return;
             }
         }
-        StdDraw.setVisible(true);
+        Draw.setVisible(true);
         for (int i = 0; i < ps.length; i++) {
-            StdDraw.point(ps[i].getX(), ps[i].getY());
+            Draw.point(ps[i].getX(), ps[i].getY());
         }
     }
 }
