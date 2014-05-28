@@ -28,6 +28,7 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
     public void run() {
         BST<Integer, String> bstOne = new BST<Integer, String>();
         BST<Integer, String> bstTwo = new BST<Integer, String>();
+
         Random.getInt(100);
     }
 }

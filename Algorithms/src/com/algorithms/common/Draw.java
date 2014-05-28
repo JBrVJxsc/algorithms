@@ -15,6 +15,9 @@ import java.util.LinkedList;
 import java.util.TreeSet;
 
 /*************************************************************************
+ *
+ * This code is from Robert Sedgewick & Kevin Wayne.
+ *
  *  Compilation:  javac StdDraw.java
  *  Execution:    java StdDraw
  *
