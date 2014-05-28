@@ -1,7 +1,7 @@
 package com.algorithms.base;
 
 import com.algorithms.common.Parameter;
-import com.algorithms.common.Reflection;
+import com.algorithms.common.managers.Reflection;
 import com.algorithms.interfaces.IAlgorithm;
 import com.algorithms.listeners.PrintConsoleListener;
 import com.algorithms.listeners.SetParameterListener;

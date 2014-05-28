@@ -1,4 +1,4 @@
-package com.algorithms.common;
+package com.algorithms.common.managers;
 
 import java.io.File;
 import java.io.FileFilter;
