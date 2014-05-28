@@ -5,7 +5,7 @@ import com.algorithms.algorithms.sort.quicksorts.Quicksort;
 import com.algorithms.algorithms.sort.quicksorts.programmingassignments.Point;
 import com.algorithms.algorithms.sort.quicksorts.programmingassignments.Points;
 import com.algorithms.common.Parameter;
-import com.algorithms.common.managers.StdDraw;
+import com.algorithms.common.functions.StdDraw;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.util.ArrayList;

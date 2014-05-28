@@ -1,4 +1,4 @@
-package com.algorithms.common.managers;
+package com.algorithms.common.functions;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

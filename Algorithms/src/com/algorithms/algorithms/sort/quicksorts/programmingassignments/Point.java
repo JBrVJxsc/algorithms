@@ -1,6 +1,6 @@
 package com.algorithms.algorithms.sort.quicksorts.programmingassignments;
 
-import com.algorithms.common.managers.StdDraw;
+import com.algorithms.common.functions.StdDraw;
 
 import java.util.ArrayList;
 import java.util.Comparator;
