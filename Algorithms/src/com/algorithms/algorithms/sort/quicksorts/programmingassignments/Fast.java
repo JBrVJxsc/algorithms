@@ -3,7 +3,7 @@ package com.algorithms.algorithms.sort.quicksorts.programmingassignments;
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.sort.quicksorts.Quicksort;
 import com.algorithms.base.Parameter;
-import com.algorithms.common.functions.StdDraw;
+import com.algorithms.common.StdDraw;
 import com.algorithms.interfaces.IAlgorithm;
 
 import java.util.ArrayList;
