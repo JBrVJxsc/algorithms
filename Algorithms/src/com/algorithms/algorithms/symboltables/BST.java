@@ -9,7 +9,7 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
 
     private Node root;
 
-    public void put(Key key, Value value) {
+    public void putOne(Key key, Value value) {
         if (root == null) {
             root = new Node(key, value);
             return;
@@ -34,6 +34,25 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
                 }
             }
         }
+    }
+
+    public void putTwo(Key key, Value value) {
+        root = put(root, key, value);
+    }
+
+    public Node put(Node node, Key key, Value value) {
+        if (node == null) {
+            return new Node(key, value);
+        }
+        int compareResult = key.compareTo(node.key);
+        if (compareResult > 0) {
+            node.right = put(node.right, key, value);
+        } else if (compareResult < 0) {
+            node.left = put(node.left, key, value);
+        } else {
+            node.value = value;
+        }
+        return node;
     }
 
     public Value get(Key key) {

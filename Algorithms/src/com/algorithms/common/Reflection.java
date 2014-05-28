@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by Who on 2014/4/10.
  */
-public class Reflection {
+public final class Reflection {
 
     public static List<Class> getAllClassByInterface(Class i, String packageName) {
         List<Class> classList = null;
