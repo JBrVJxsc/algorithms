@@ -115,18 +115,75 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     public Key min() {
-        return null;
+        Node node = getMin(root);
+        if (node == null) {
+            return null;
+        }
+        return node.key;
+    }
+
+    private Node getMin(Node node) {
+        if (node == null) {
+            return null;
+        }
+        if (node.left == null) {
+            return node;
+        } else {
+            return getMin(node.left);
+        }
     }
 
     public Key max() {
-        return null;
+        Node node = getMax(root);
+        if (node == null) {
+            return null;
+        }
+        return node.key;
     }
 
-    public void deleteMin(Node node) {
+    private Node getMax(Node node) {
+        if (node == null) {
+            return null;
+        }
+        if (node.right == null) {
+            return node;
+        } else {
+            return getMax(node.right);
+        }
     }
 
-    public void deleteMax(Node node) {
+    public void deleteMin() {
+        root = deleteMin(root);
+    }
 
+    public Node deleteMin(Node node) {
+        if (node == null) {
+            return null;
+        }
+        if (node.left != null) {
+            node.left = deleteMin(node.left);
+        } else {
+            return node.right;
+        }
+        node.count = 1 + size(node.left) + size(node.right);
+        return node;
+    }
+
+    public void deleteMax() {
+        root = deleteMax(root);
+    }
+
+    private Node deleteMax(Node node) {
+        if (node == null) {
+            return null;
+        }
+        if (node.right != null) {
+            node.right = deleteMax(node.right);
+        } else {
+            return node.left;
+        }
+        node.count = 1 + size(node.left) + size(node.right);
+        return node;
     }
 
     public void delete(Key key) {
@@ -146,11 +203,17 @@ public class BST<Key extends Comparable<Key>, Value> {
 
     public Iterable<Key> iterator() {
         LinkedListQueue<Key> queue = new LinkedListQueue<Key>();
+        inorder(queue, root);
         return queue;
     }
 
-    private void inorder() {
-
+    private void inorder(LinkedListQueue<Key> linkedListQueue, Node node) {
+        if (node == null) {
+            return;
+        }
+        inorder(linkedListQueue, node.left);
+        linkedListQueue.enqueue(node.key);
+        inorder(linkedListQueue, node.right);
     }
 
     //Unuseful. It can not implement the count field.

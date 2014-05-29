@@ -28,12 +28,69 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
     @Override
     public void run() {
 //        testFloor();
-//        print();
-//        print("--------------------------------------");
-//        print();
 //        testCeiling();
 //        testCount();
-        testRank();
+//        testRank();
+//        testMin();
+//        testMax();
+//        testDeleteMin();
+        testDeleteMax();
+    }
+
+    private void testDeleteMax() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        int count = 0;
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            if (bstOne.get(key) != null) {
+                continue;
+            }
+            bstOne.put(key, key);
+            print("Put: " + key);
+            count++;
+        }
+        for (int i = 0; i < count; i++) {
+            print(bstOne.max());
+            bstOne.deleteMax();
+        }
+    }
+
+    private void testDeleteMin() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        int count = 0;
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            if (bstOne.get(key) != null) {
+                continue;
+            }
+            bstOne.put(key, key);
+            print("Put: " + key);
+            count++;
+        }
+        for (int i = 0; i < count; i++) {
+            print(bstOne.min());
+            bstOne.deleteMin();
+        }
+    }
+
+    private void testMax() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            bstOne.put(key, key);
+            print("Put: " + key);
+        }
+        print(bstOne.max());
+    }
+
+    private void testMin() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            bstOne.put(key, key);
+            print("Put: " + key);
+        }
+        print(bstOne.min());
     }
 
     private void test1() {
