@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Who.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Who.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithms.iws" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="BST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.551723" vertical-offset="2393" max-vertical-offset="5202">
-              <caret line="213" column="60" selection-start-line="213" selection-start-column="60" selection-end-line="213" selection-end-column="60" />
+            <state vertical-scroll-proportion="-13.068966" vertical-offset="2902" max-vertical-offset="5202">
+              <caret line="239" column="24" selection-start-line="239" selection-start-column="24" selection-end-line="239" selection-end-column="24" />
               <folding>
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
@@ -52,24 +51,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise1.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Exercise1.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.259542" vertical-offset="289" max-vertical-offset="3043">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="3366">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
               <folding>
-                <element signature="e#1316#1325#0" expanded="true" />
+                <element signature="e#1942#1951#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListQueue.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Iterator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1683">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/base/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3325" max-vertical-offset="4131">
+              <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListQueue.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="2023">
-              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="0.7051071" vertical-offset="1000" max-vertical-offset="1819">
+              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+              <folding>
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1970#1971#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBag.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/bags/interfaces/IBag.java">
+      <file leaf-file-name="ResizingArrayQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="1241">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -99,26 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1564">
               <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStackPlus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/stacks/interfaces/IStackPlus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="306">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1071">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -179,10 +183,10 @@
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/bags/interfaces/IBag.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/bags/LinkedListBag.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/interfaces/IQueue.java" />
-        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStackPlus.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" />
       </list>
     </option>
   </component>
@@ -762,7 +766,11 @@
       <created>1401358148008</created>
       <updated>1401358148008</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Code">
+      <created>1401361035432</created>
+      <updated>1401361035432</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -816,7 +824,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -824,13 +846,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/SAMPLE/Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/sort/heapsorts/Heapsort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1003">
@@ -964,13 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/base/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="4131">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1115,14 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1241">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
@@ -1179,18 +1179,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1853">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1241">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1683">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/base/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3325" max-vertical-offset="4131">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="3366">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <element signature="e#1942#1951#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.551723" vertical-offset="2393" max-vertical-offset="5202">
-          <caret line="213" column="60" selection-start-line="213" selection-start-column="60" selection-end-line="213" selection-end-column="60" />
+        <state vertical-scroll-proportion="-13.068966" vertical-offset="2902" max-vertical-offset="5202">
+          <caret line="239" column="24" selection-start-line="239" selection-start-column="24" selection-end-line="239" selection-end-column="24" />
           <folding>
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
@@ -1209,12 +1235,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.259542" vertical-offset="289" max-vertical-offset="3043">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.7051071" vertical-offset="1000" max-vertical-offset="1819">
+          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
           <folding>
-            <element signature="e#1316#1325#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
           </folding>
         </state>
       </provider>

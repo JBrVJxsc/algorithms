@@ -64,7 +64,7 @@ public class LinkedListQueue<T> implements IQueue<T>, Iterable<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new LinkedListQueueIterator(this);
     }
 
     private class LinkedListQueueIterator<T> implements Iterator<T> {
@@ -86,7 +86,7 @@ public class LinkedListQueue<T> implements IQueue<T>, Iterable<T> {
         public T next() {
             Node next = pointer;
             pointer = pointer.getNext();
-            return (T) next;
+            return (T) next.getItem();
         }
     }
 

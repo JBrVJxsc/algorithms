@@ -6,6 +6,8 @@ import com.algorithms.base.Parameter;
 import com.algorithms.common.Random;
 import com.algorithms.interfaces.IAlgorithm;
 
+import java.util.Iterator;
+
 /**
  * Created by Who on 2014/5/27.
  */
@@ -27,6 +29,7 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public void run() {
+//        testPutGet();
 //        testFloor();
 //        testCeiling();
 //        testCount();
@@ -35,7 +38,25 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 //        testMax();
 //        testDeleteMin();
 //        testDeleteMax();
-        testDelete();
+//        testDelete();
+        testIterator();
+    }
+
+    private void testIterator() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            if (bstOne.get(key) != null) {
+                continue;
+            }
+            bstOne.put(key, key);
+            print("Put: " + key);
+        }
+        Iterable<Integer> iterable = bstOne.iterator();
+        Iterator<Integer> iterator = iterable.iterator();
+        while (iterator.hasNext()) {
+            print(iterator.next());
+        }
     }
 
     private void testDelete() {
@@ -114,7 +135,7 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
         print(bstOne.min());
     }
 
-    private void test1() {
+    private void testPutGet() {
         Parameter<Integer> bound = new Parameter<Integer>(200, "Bound");
         set(bound);
         BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
