@@ -34,7 +34,28 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 //        testMin();
 //        testMax();
 //        testDeleteMin();
-        testDeleteMax();
+//        testDeleteMax();
+        testDelete();
+    }
+
+    private void testDelete() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        int count = 0;
+        for (int i = 0; i < 10; i++) {
+            int key = Random.getInt(100);
+            if (bstOne.get(key) != null) {
+                continue;
+            }
+            bstOne.put(key, key);
+            print("Put: " + key);
+            count++;
+        }
+        Parameter<Integer> key = new Parameter<Integer>(0, "Key");
+        for (int i = 0; i < count; i++) {
+            set(key);
+            bstOne.delete(key.getValue());
+            print(bstOne.max());
+        }
     }
 
     private void testDeleteMax() {
