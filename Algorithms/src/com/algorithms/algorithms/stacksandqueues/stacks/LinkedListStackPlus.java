@@ -61,11 +61,6 @@ public class LinkedListStackPlus<T> implements IStackPlus<T> {
             pointer = pointer.getNext();
             return t;
         }
-
-        @Override
-        public void remove() {
-
-        }
     }
 
     private class Node {

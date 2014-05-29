@@ -2,10 +2,12 @@ package com.algorithms.algorithms.stacksandqueues.queues;
 
 import com.algorithms.algorithms.stacksandqueues.queues.interfaces.IQueue;
 
+import java.util.Iterator;
+
 /**
  * Created by Who on 2014/4/19.
  */
-public class LinkedListQueue<T> implements IQueue<T> {
+public class LinkedListQueue<T> implements IQueue<T>, Iterable<T> {
 
     private Node<T> top = null;
     private Node<T> bottom = null;
@@ -58,6 +60,34 @@ public class LinkedListQueue<T> implements IQueue<T> {
             string = getString(node.getNext()) + string;
         }
         return string;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
+    }
+
+    private class LinkedListQueueIterator<T> implements Iterator<T> {
+
+        private LinkedListQueue linkedListQueue = null;
+        private Node pointer = null;
+
+        public LinkedListQueueIterator(LinkedListQueue linkedListQueue) {
+            this.linkedListQueue = linkedListQueue;
+            pointer = linkedListQueue.top;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return pointer != null;
+        }
+
+        @Override
+        public T next() {
+            Node next = pointer;
+            pointer = pointer.getNext();
+            return (T) next;
+        }
     }
 
     private class Node<T> {

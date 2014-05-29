@@ -1,11 +1,11 @@
 package com.algorithms.algorithms.symboltables;
 
-import java.util.Iterator;
+import com.algorithms.algorithms.stacksandqueues.queues.LinkedListQueue;
 
 /**
  * Created by Who on 2014/5/6.
  */
-public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
+public class BST<Key extends Comparable<Key>, Value> {
 
     private Node root;
 
@@ -144,10 +144,13 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
         return node.count;
     }
 
-    @Override
-    public Iterator<Key> iterator() {
-//        Queue<Key> queue = new Queue<Key>();
-        return null;
+    public Iterable<Key> iterator() {
+        LinkedListQueue<Key> queue = new LinkedListQueue<Key>();
+        return queue;
+    }
+
+    private void inorder() {
+
     }
 
     //Unuseful. It can not implement the count field.
