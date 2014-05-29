@@ -31,8 +31,9 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 //        print();
 //        print("--------------------------------------");
 //        print();
-        testCeiling();
+//        testCeiling();
 //        testCount();
+        testRank();
     }
 
     private void test1() {
@@ -85,5 +86,20 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
             print("Ceiling: " + bstOne.ceiling(key + 1));
             print();
         }
+    }
+
+    private void testRank() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        for (int i = 0; i < 100; i++) {
+            int key = Random.getInt(100);
+            bstOne.put(key, key);
+            print("Put: " + key);
+            print("Rank: " + bstOne.rank(key + 1));
+            print();
+        }
+        print();
+        print("Size: " + bstOne.size());
+        print();
+        print("RankAll: " + bstOne.rank(10000));
     }
 }

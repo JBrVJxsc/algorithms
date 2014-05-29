@@ -40,24 +40,24 @@
       <file leaf-file-name="BST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.48276" vertical-offset="1050" max-vertical-offset="3553">
-              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+            <state vertical-scroll-proportion="-18.896551" vertical-offset="1339" max-vertical-offset="3791">
+              <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
               <folding>
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#2570#2571#0" expanded="true" />
-                <element signature="e#2594#2595#0" expanded="true" />
-                <element signature="e#2618#2619#0" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
-                <element signature="e#2669#2670#0" expanded="true" />
-                <element signature="e#2696#2697#0" expanded="true" />
+                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+                <element signature="e#3075#3076#0" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3126#3127#0" expanded="true" />
                 <element signature="method#delete#0;class#BST#0" expanded="false" />
-                <element signature="e#2856#2857#0" expanded="true" />
-                <element signature="e#2889#2890#0" expanded="true" />
+                <element signature="e#3286#3287#0" expanded="true" />
+                <element signature="e#3319#3320#0" expanded="true" />
                 <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
                 <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-                <element signature="e#5617#5618#0" expanded="true" />
-                <element signature="e#5644#5645#0" expanded="true" />
+                <element signature="e#6047#6048#0" expanded="true" />
+                <element signature="e#6074#6075#0" expanded="true" />
                 <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
               </folding>
             </state>
@@ -77,8 +77,8 @@
       <file leaf-file-name="Exercise1.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24889544" vertical-offset="154" max-vertical-offset="1445">
-              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.82474226" vertical-offset="970" max-vertical-offset="1717">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -669,7 +669,11 @@
       <created>1401327411875</created>
       <updated>1401327411875</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Code">
+      <created>1401331920195</created>
+      <updated>1401331920195</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -746,18 +750,18 @@
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3075#3076#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
             <element signature="method#delete#0;class#BST#0" expanded="false" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#3286#3287#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
             <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
             <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-            <element signature="e#5617#5618#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6074#6075#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
           </folding>
         </state>
@@ -1113,24 +1117,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.48276" vertical-offset="1050" max-vertical-offset="3553">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        <state vertical-scroll-proportion="-18.896551" vertical-offset="1339" max-vertical-offset="3791">
+          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
           <folding>
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3075#3076#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3126#3127#0" expanded="true" />
             <element signature="method#delete#0;class#BST#0" expanded="false" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#3286#3287#0" expanded="true" />
+            <element signature="e#3319#3320#0" expanded="true" />
             <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
             <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-            <element signature="e#5617#5618#0" expanded="true" />
-            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#6047#6048#0" expanded="true" />
+            <element signature="e#6074#6075#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
           </folding>
         </state>
@@ -1138,8 +1142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24889544" vertical-offset="154" max-vertical-offset="1445">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.82474226" vertical-offset="970" max-vertical-offset="1717">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding />
         </state>
       </provider>

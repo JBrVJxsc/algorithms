@@ -97,7 +97,21 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
     }
 
     public int rank(Key key) {
-        return 1;
+        return getRank(root, key);
+    }
+
+    private int getRank(Node node, Key key) {
+        if (node == null) {
+            return 0;
+        }
+        int compareResult = key.compareTo(node.key);
+        if (compareResult > 0) {
+            return 1 + size(node.left) + getRank(node.right, key);
+        } else if (compareResult < 0) {
+            return getRank(node.left, key);
+        } else {
+            return size(node.left);
+        }
     }
 
     public Key min() {
