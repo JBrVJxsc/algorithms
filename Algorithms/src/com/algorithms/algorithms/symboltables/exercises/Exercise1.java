@@ -28,10 +28,11 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
     @Override
     public void run() {
         testFloor();
-        print();
-        print("--------------------------------------");
-        print();
-        testCeiling();
+//        print();
+//        print("--------------------------------------");
+//        print();
+//        testCeiling();
+//        testCount();
     }
 
     private void test1() {
@@ -43,10 +44,23 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
             int key = Random.getInt(bound.getValue());
             bstOne.put(key, key);
             bstOne.put(key, key);
-            bstTwo.putCourse(key, key);
-            bstTwo.putCourse(key, key);
+            bstTwo.put(key, key);
+            bstTwo.put(key, key);
             print("BST-ONE:" + bstOne.get(key));
-            print("BST-TWO:" + bstTwo.getCourse(key));
+            print("BST-TWO:" + bstTwo.get(key));
+            print();
+        }
+    }
+
+    private void testCount() {
+        BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
+        BST<Integer, Integer> bstTwo = new BST<Integer, Integer>();
+        for (int i = 0; i < 100; i++) {
+            int key = Random.getInt(10090);
+            bstOne.put(key, key);
+            bstTwo.put(key, key);
+            print("BST-ONE Size:" + bstOne.size());
+            print("BST-TWO Size:" + bstTwo.size());
             print();
         }
     }
