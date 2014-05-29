@@ -1,4 +1,4 @@
-package com.algorithms.algorithms.stacksandqueues.bag.interfaces;
+package com.algorithms.algorithms.stacksandqueues.bags.interfaces;
 
 /**
  * Created by Who on 2014/4/20.

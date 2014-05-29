@@ -144,6 +144,12 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
         return node.count;
     }
 
+    @Override
+    public Iterator<Key> iterator() {
+//        Queue<Key> queue = new Queue<Key>();
+        return null;
+    }
+
     //Unuseful. It can not implement the count field.
     public void putMyMethod(Key key, Value value) {
         if (root == null) {
@@ -232,11 +238,6 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
             return null;
         }
         return found.key;
-    }
-
-    @Override
-    public Iterator<Key> iterator() {
-        return null;
     }
 
     private class Node {

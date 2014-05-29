@@ -1,6 +1,6 @@
 package com.algorithms.algorithms.stacksandqueues.bags;
 
-import com.algorithms.algorithms.stacksandqueues.bag.interfaces.IBag;
+import com.algorithms.algorithms.stacksandqueues.bags.interfaces.IBag;
 import com.algorithms.algorithms.stacksandqueues.stacks.LinkedListStackPlus;
 
 import java.util.Iterator;
