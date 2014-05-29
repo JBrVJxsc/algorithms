@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="Code">
+    <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" afterPath="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,27 +37,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.183077" vertical-offset="880" max-vertical-offset="2414">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+            <state vertical-scroll-proportion="-19.48276" vertical-offset="1050" max-vertical-offset="3553">
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding>
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#2033#2034#0" expanded="true" />
-                <element signature="e#2060#2061#0" expanded="true" />
-                <element signature="e#2092#2093#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2140#2141#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2191#2192#0" expanded="true" />
-                <element signature="e#2218#2219#0" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#2645#2646#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
+                <element signature="e#2696#2697#0" expanded="true" />
                 <element signature="method#delete#0;class#BST#0" expanded="false" />
-                <element signature="method#putMyMethod#0;class#BST#0" expanded="false" />
+                <element signature="e#2856#2857#0" expanded="true" />
+                <element signature="e#2889#2890#0" expanded="true" />
                 <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
                 <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-                <element signature="method#ceilingMyMethod#0;class#BST#0" expanded="false" />
+                <element signature="e#5617#5618#0" expanded="true" />
+                <element signature="e#5644#5645#0" expanded="true" />
                 <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
               </folding>
             </state>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise1.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Exercise1.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1445">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24889544" vertical-offset="154" max-vertical-offset="1445">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Point.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/unionfind/jobinterview/a1q1/Main.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/common/Draw.java" />
-        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" />
         <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java" />
+        <option value="$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java" />
       </list>
     </option>
   </component>
@@ -665,7 +665,11 @@
       <created>1401248313904</created>
       <updated>1401248313904</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Code">
+      <created>1401327411875</created>
+      <updated>1401327411875</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,19 +745,19 @@
           <folding>
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
             <element signature="method#delete#0;class#BST#0" expanded="false" />
-            <element signature="method#putMyMethod#0;class#BST#0" expanded="false" />
+            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
             <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
             <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-            <element signature="method#ceilingMyMethod#0;class#BST#0" expanded="false" />
+            <element signature="e#5617#5618#0" expanded="true" />
+            <element signature="e#5644#5645#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
           </folding>
         </state>
@@ -1030,7 +1034,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
           <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,36 +1111,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1445">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.183077" vertical-offset="880" max-vertical-offset="2414">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+        <state vertical-scroll-proportion="-19.48276" vertical-offset="1050" max-vertical-offset="3553">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
           <folding>
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#2033#2034#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
             <element signature="method#delete#0;class#BST#0" expanded="false" />
-            <element signature="method#putMyMethod#0;class#BST#0" expanded="false" />
+            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
             <element signature="method#getMyMethod#0;class#BST#0" expanded="false" />
             <element signature="method#floorMyMethod#0;class#BST#0" expanded="false" />
-            <element signature="method#ceilingMyMethod#0;class#BST#0" expanded="false" />
+            <element signature="e#5617#5618#0" expanded="true" />
+            <element signature="e#5644#5645#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/src/com/algorithms/algorithms/symboltables/exercises/Exercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24889544" vertical-offset="154" max-vertical-offset="1445">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

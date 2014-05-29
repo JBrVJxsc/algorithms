@@ -27,11 +27,11 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public void run() {
-        testFloor();
+//        testFloor();
 //        print();
 //        print("--------------------------------------");
 //        print();
-//        testCeiling();
+        testCeiling();
 //        testCount();
     }
 

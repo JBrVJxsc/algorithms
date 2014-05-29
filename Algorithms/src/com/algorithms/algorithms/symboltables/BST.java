@@ -72,11 +72,28 @@ public class BST<Key extends Comparable<Key>, Value> implements Iterable<Key> {
 
     public Key ceiling(Key key) {
         Node node = getCeiling(root, key);
+        if (node != null) {
+            return node.key;
+        }
         return null;
     }
 
     private Node getCeiling(Node node, Key key) {
-        return null;
+        if (node == null) {
+            return null;
+        }
+        int compareResult = key.compareTo(node.key);
+        if (compareResult > 0) {
+            return getCeiling(node.right, key);
+        } else if (compareResult < 0) {
+            Node t = getCeiling(node.left, key);
+            if (t != null) {
+                return t;
+            }
+            return node;
+        } else {
+            return node;
+        }
     }
 
     public int rank(Key key) {
