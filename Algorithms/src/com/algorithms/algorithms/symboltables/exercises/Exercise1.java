@@ -44,7 +44,7 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
 
     private void testIterator() {
         BST<Integer, Integer> bstOne = new BST<Integer, Integer>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             int key = Random.getInt(100);
             if (bstOne.get(key) != null) {
                 continue;
@@ -52,8 +52,24 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
             bstOne.put(key, key);
             print("Put: " + key);
         }
-        Iterable<Integer> iterable = bstOne.iterator();
+        print();
+        print("PRE_ORDER:");
+        Iterable<Integer> iterable = bstOne.iterator(BST.OrderType.PRE_ORDER);
         Iterator<Integer> iterator = iterable.iterator();
+        while (iterator.hasNext()) {
+            print(iterator.next());
+        }
+        print();
+        print("IN_ORDER:");
+        iterable = bstOne.iterator(BST.OrderType.IN_ORDER);
+        iterator = iterable.iterator();
+        while (iterator.hasNext()) {
+            print(iterator.next());
+        }
+        print();
+        print("POST_ORDER:");
+        iterable = bstOne.iterator(BST.OrderType.POST_ORDER);
+        iterator = iterable.iterator();
         while (iterator.hasNext()) {
             print(iterator.next());
         }

@@ -226,9 +226,15 @@ public class BST<Key extends Comparable<Key>, Value> {
         return node.count;
     }
 
-    public Iterable<Key> iterator() {
+    public Iterable<Key> iterator(OrderType orderType) {
         LinkedListQueue<Key> queue = new LinkedListQueue<Key>();
-        inorder(queue, root);
+        if (orderType == OrderType.PRE_ORDER) {
+            preorder(queue, root);
+        } else if (orderType == OrderType.IN_ORDER) {
+            inorder(queue, root);
+        } else if (orderType == OrderType.POST_ORDER) {
+            postorder(queue, root);
+        }
         return queue;
     }
 
@@ -239,6 +245,24 @@ public class BST<Key extends Comparable<Key>, Value> {
         inorder(linkedListQueue, node.left);
         linkedListQueue.enqueue(node.key);
         inorder(linkedListQueue, node.right);
+    }
+
+    private void preorder(LinkedListQueue<Key> linkedListQueue, Node node) {
+        if (node == null) {
+            return;
+        }
+        linkedListQueue.enqueue(node.key);
+        preorder(linkedListQueue, node.left);
+        preorder(linkedListQueue, node.right);
+    }
+
+    private void postorder(LinkedListQueue<Key> linkedListQueue, Node node) {
+        if (node == null) {
+            return;
+        }
+        postorder(linkedListQueue, node.left);
+        postorder(linkedListQueue, node.right);
+        linkedListQueue.enqueue(node.key);
     }
 
     //Unuseful. It can not implement the count field.
@@ -342,5 +366,11 @@ public class BST<Key extends Comparable<Key>, Value> {
             this.key = key;
             this.value = value;
         }
+    }
+
+    public enum OrderType {
+        PRE_ORDER,
+        IN_ORDER,
+        POST_ORDER
     }
 }
