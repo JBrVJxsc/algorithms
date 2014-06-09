@@ -88,6 +88,11 @@ public class LinkedListQueue<T> implements IQueue<T>, Iterable<T> {
             pointer = pointer.getNext();
             return (T) next.getItem();
         }
+
+        @Override
+        public void remove() {
+
+        }
     }
 
     private class Node<T> {
