@@ -84,6 +84,7 @@ public class MainForm {
         txtConsole.setBackground(Color.black);
         txtConsole.setForeground(Color.green);
         txtConsole.setCaretColor(Color.green);
+        btRun.setEnabled(false);
     }
 
     private void initAlgorithms() {
@@ -97,6 +98,7 @@ public class MainForm {
             IAlgorithm algorithm = (IAlgorithm) algorithmList.get(i);
             cmbAlgorithms.addItem(algorithm);
         }
+        btRun.setEnabled(true);
     }
 
     private void initListener() {
