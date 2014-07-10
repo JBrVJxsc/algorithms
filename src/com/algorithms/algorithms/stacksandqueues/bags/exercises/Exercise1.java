@@ -1,4 +1,4 @@
-package com.algorithms.algorithms.stacksandqueues.bag.exercises;
+package com.algorithms.algorithms.stacksandqueues.bags.exercises;
 
 import com.algorithms.algorithms.BaseAlgorithm;
 import com.algorithms.algorithms.stacksandqueues.bags.LinkedListBag;
