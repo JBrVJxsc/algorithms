@@ -99,6 +99,7 @@ public class MainForm {
             cmbAlgorithms.addItem(algorithm);
         }
         btRun.setEnabled(true);
+        run();
     }
 
     private void initListener() {
@@ -115,35 +116,43 @@ public class MainForm {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if (btRun.getText() == "Run") {
-                    if (currentAlgorithm == null) {
-                        return;
-                    }
-                    resetConsole(currentAlgorithm);
-                    consoleWorker = null;
-                    consoleWorker = new ConsoleWorker(frame);
-                    startTime = System.currentTimeMillis();
-                    running = true;
-                    consoleWorker.start();
+                    run();
                 } else {
-                    printConsole("\n\nAlgorithm has stopped manually.");
-                    bottomConsole();
-                    endTime = System.currentTimeMillis();
-                    String parameterInfo = "";
-                    for (Parameter parameter : parameterList) {
-                        parameterInfo += "\n" + parameter.getName() + ": " + parameter.getValue().toString();
-                    }
-                    if (parameterInfo != "") {
-                        parameterInfo = "\n\nParameters:" + parameterInfo;
-                        printConsole(parameterInfo);
-                    }
-                    printConsole("\n\nTotal running time: " + String.valueOf(getRunTime()) + " ms.");
-                    running = false;
-                    consoleWorker.stop();
-                    consoleWorker = null;
-                    btRun.setText("Run");
+                    stop();
                 }
             }
         });
+    }
+
+    private void run() {
+        if (currentAlgorithm == null) {
+            return;
+        }
+        resetConsole(currentAlgorithm);
+        consoleWorker = null;
+        consoleWorker = new ConsoleWorker(frame);
+        startTime = System.currentTimeMillis();
+        running = true;
+        consoleWorker.start();
+    }
+
+    private void stop() {
+        printConsole("\n\nAlgorithm has stopped manually.");
+        bottomConsole();
+        endTime = System.currentTimeMillis();
+        String parameterInfo = "";
+        for (Parameter parameter : parameterList) {
+            parameterInfo += "\n" + parameter.getName() + ": " + parameter.getValue().toString();
+        }
+        if (parameterInfo != "") {
+            parameterInfo = "\n\nParameters:" + parameterInfo;
+            printConsole(parameterInfo);
+        }
+        printConsole("\n\nTotal running time: " + String.valueOf(getRunTime()) + " ms.");
+        running = false;
+        consoleWorker.stop();
+        consoleWorker = null;
+        btRun.setText("Run");
     }
 
     private void resetConsole(IAlgorithm algorithm) {
