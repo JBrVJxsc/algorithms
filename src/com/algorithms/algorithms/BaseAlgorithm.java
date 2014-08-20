@@ -40,7 +40,15 @@ public abstract class BaseAlgorithm {
         String string = "";
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
-            string += iterator.next().toString() + " ";
+            Object object = iterator.next();
+            if (object == null) {
+                string += "null" + ", ";
+            } else {
+                string += iterator.next().toString() + ", ";
+            }
+        }
+        if (string.length() > 2) {
+            string = string.substring(0, string.length() - 2);
         }
         return print(string);
     }
@@ -48,7 +56,14 @@ public abstract class BaseAlgorithm {
     protected String print(Object[] objects) {
         String string = "";
         for (Object object : objects) {
-            string += object.toString() + " ";
+            if (object == null) {
+                string += "null" + ", ";
+            } else {
+                string += object.toString() + ", ";
+            }
+        }
+        if (string.length() > 2) {
+            string = string.substring(0, string.length() - 2);
         }
         return print(string);
     }
