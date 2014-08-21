@@ -4,20 +4,29 @@ package com.algorithms.algorithms.graphs.undirected;
  * Created by Who on 2014/8/20.
  */
 public class Graph {
-    public Graph(int V) {
 
+    private final int V;
+    private Bag<Integer>[] adj;
+
+    public Graph(int V) {
+        this.V = V;
+        adj = new Bag[V];
+        for (int v = 0; v < V; v++) {
+            adj[v] = new Bag<Integer>();
+        }
     }
 
     public void addEdge(int v, int w) {
-
+        adj[v].add(w);
+        adj[w].add(v);
     }
 
     public Iterable<Integer> adj(int v) {
-        return null;
+        return adj[v];
     }
 
     public int V() {
-        return 0;
+        return V;
     }
 
     public int E() {
