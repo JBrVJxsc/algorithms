@@ -30,11 +30,11 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
         graph.addEdge(3, 5);
         graph.addEdge(3, 4);
         graph.addEdge(4, 5);
-        graph.addEdge(0, 5);
         graph.addEdge(6, 4);
         graph.addEdge(6, 0);
         graph.addEdge(1, 0);
         graph.addEdge(2, 0);
+        graph.addEdge(0, 5);
         DFS dfs = new DFS(graph, 0);
         print(dfs.marked);
         print(dfs.edgeTo);
