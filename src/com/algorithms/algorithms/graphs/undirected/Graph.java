@@ -6,6 +6,7 @@ package com.algorithms.algorithms.graphs.undirected;
 public class Graph {
 
     private final int V;
+    private int E;
     private Bag<Integer>[] adj;
 
     public Graph(int V) {
@@ -19,6 +20,7 @@ public class Graph {
     public void addEdge(int v, int w) {
         adj[v].add(w);
         adj[w].add(v);
+        E++;
     }
 
     public Iterable<Integer> adj(int v) {
@@ -30,7 +32,7 @@ public class Graph {
     }
 
     public int E() {
-        return 0;
+        return E;
     }
 
     public String toString() {

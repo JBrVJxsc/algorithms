@@ -27,14 +27,14 @@ public class Exercise1 extends BaseAlgorithm implements IAlgorithm {
     @Override
     public void run() {
         Graph graph = new Graph(7);
-        graph.addEdge(0, 6);
-        graph.addEdge(0, 2);
-        graph.addEdge(0, 1);
+        graph.addEdge(3, 5);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
         graph.addEdge(0, 5);
         graph.addEdge(6, 4);
-        graph.addEdge(4, 5);
-        graph.addEdge(4, 3);
-        graph.addEdge(5, 3);
+        graph.addEdge(6, 0);
+        graph.addEdge(1, 0);
+        graph.addEdge(2, 0);
         DFS dfs = new DFS(graph, 0);
         print(dfs.marked);
         print(dfs.edgeTo);
